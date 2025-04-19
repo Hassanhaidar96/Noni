@@ -8,7 +8,7 @@ import streamlit as st
 import random
 
 # List of image file names (assuming you have 16 images named 1.png to 16.png)
-image_files = [f'{i}.jpg' for i in range(1, 17)]
+image_files = [f'{i}.jpg' for i in range(1, 5)]
 
 # List of love quotes
 love_quotes = [
@@ -37,7 +37,7 @@ def get_random_image_and_quote():
     return random_image, random_quote
 
 # Streamlit app layout
-st.title("A Special Gift Just For You")
+st.title("A Special Gift For Ghina Bibo")
 st.write("Press the button below and see how much I love you!")
 
 # Button to show a random image and quote
